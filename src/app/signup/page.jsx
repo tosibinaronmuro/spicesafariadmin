@@ -4,8 +4,7 @@ import { useDispatch } from "react-redux";
 import { isSuccess } from "../../Store/ToolkitQuery/authStore";
 import { useRegisterMutation } from "../../Store/Api_Slices/authSlice";
 import { useRouter } from "next/navigation";
-import ErrorAlert from "../../../../admin/components/alert/error";
-import SuccessAlert from "../../../../admin/components/alert/success";
+
 
 const page = () => {
   const dispatch = useDispatch();
